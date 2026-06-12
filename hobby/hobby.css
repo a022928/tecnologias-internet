@@ -80,7 +80,15 @@ footer {
     text-align: center;
 }
 
-audio{
-    display:block;
+audio {
+    display: block;
     margin:20px auto;
+}
+
+@media (max-width: 768px){
+    .area-audio {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
 }
