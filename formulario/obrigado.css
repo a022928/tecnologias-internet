@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color:black;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color:gray;
+    margin-bottom: 50px;
+}
+
+.btn{
+    padding: 15px 55px;
+    background: orange;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 16px;
+}
