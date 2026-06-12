@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizar INPUT File</title>
+    
+    <style>
+    
+        /* Desta forma conseguimos atingir o INPUT pelo tipo */
+        input[type="file"] {
+            background-color: red;
+            color:blue;
+            width: 500px;
+            height: 300px;
+            font-weight: bold;
+            
+            /* VAMOS ESCONDER O INPUT E ESTILAZAMOS A LABEL */
+            display: none;
+        }
+        
+        label {
+            padding: 20px 10px;
+            width: 200px;
+            background: #333;
+            color: #FFF;
+            text-transform: uppercase;
+            
+            /* Com display: block;  os elementos colocados a seguir ao label pularão de linha */
+            display: block;
+            
+            margin-top: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: .5s;
+            border: 1px solid #333;
+            border-radius: 30px;
+        }
+        
+        label:hover {
+            color: #333;
+            background: #FFF;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    
+    <h1>Envie o seu arquivo</h1>
+    
+    <form action="">
+        <div>
+            <label for="arquivo">Enviar arquivo</label>
+            <input type="file" name="arquivo" id="arquivo">
+        </div>
+    </form>
+    
+</body>
+</html>

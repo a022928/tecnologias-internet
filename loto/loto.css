@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+header {
+    background-image: linear-gradient(to left, red, yellow, red);
+    font-size: 2.9em;
+    text-align: center;
+    border: 6px solid purple;
+    border-radius: 50px;
+    letter-spacing: 0.2em;
+    margin: 40px auto;
+    padding: 5px 10px;
+    width: 65%;   
+}
+
+#bolas_ul {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+body {
+    background: #f3e9d2;
+}
+
+.divbasepagina {
+    width: 88%;
+    margin: 25px auto 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+
+#container_bolas {
+    border-radius: 14px 14px 0 0;
+}
+
+.divbaserodape {
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-radius: 0 0 14px 14px;
+}
+
+.btn-loto {
+    padding: 14px 32px;
+    background: #d97706;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.btn-loto:hover {
+    background: #b45309;
+    transform: translateY(-2px);
+}
+
+/* .divbaserodape{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    gap:160px;
+} */
+
+.basesorteado{
+    width:140px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#botaoreset{
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#botaoreset:hover{
+    background-color: #666666;
+    transform: translateY(-2px);
+}
+
+.bolaslinha {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ===================================== 
+/* ULTIMO NUMERO SORTEADO                
+/* ..................................... */
+#ultimonumerosorteado {
+    width: 150px;
+    height: 110px;
+    background-image: linear-gradient(to left, yellow, orange, yellow);
+    text-align: center;
+    border: 5px solid brown;
+    border-radius: 30px;
+    font-size: 4.8em;
+    line-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: 40px;
+}
+
+.painel-inferior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bases {
+    width: 80%;
+    height: 150px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolas {
+    border: 3px solid rgb(163, 163, 163);
+    border-radius: 20px;
+    font-size: 1.8em;
+    list-style: none;
+    width: 75px;
+    line-height: 75px;
+    margin-left: 20px;
+    margin: 5px 5px;
+    display: inline-block;
+    background-color: #d6cbb8;
+    color: #444;   
+}
+
+.sorteada {
+    background-image: linear-gradient(to left, orange, gray, orange);
+}
+
+#container_bolas {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: mediumturquoise;   
+    justify-content: center;
+    margin-left: 190px;
+    margin-right: auto;
+}
+
+/* ************************************************************************************** */
+/* Estilizar a class BOTAO                                                                */
+/* ...................................................................................... */
+.botao {
+    background-image: linear-gradient(to left, #FF7F50, green, #FF7f50);
+    font-size: 1.8em;
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    border: 5px solid gray;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+#botaosortear {
+    border: 5px solid peru;
+}
+
+#botaosortear:hover {
+    cursor: pointer;
+}
+
+.divbaserodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.painel-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-botao {
+    margin-top: 60px;
+}
