@@ -76,19 +76,40 @@ figcaption {
     margin-bottom: 20px;
 }
 
+.area-audio {
+    width: 100%;
+    text-align: center;
+}
+
 footer {
     text-align: center;
 }
 
 audio {
     display: block;
+    width: 90%;
+    max-width: 360px;
     margin:20px auto;
 }
 
 @media (max-width: 768px){
-    .area-audio {
+     audio {
+        width: 90%;
+        max-width: 320px;
+        margin: 15px auto 25px auto;
+        display: block;
+    }
+
+    .area-botao {
+        width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
     }
 }
