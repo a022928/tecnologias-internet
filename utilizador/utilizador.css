@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    margin: 40px 0 25px;
+    color: #4b3621;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #d97706;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.btn-xsd {
+    display: block;
+    margin: 25px auto 15px;
+    padding: 12px 24px;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-xsd:hover {
+    background: #5a6268;
+}
+
+#xmlUtilizador,
+#xsdUtilizador {
+    width: 68%;
+    margin: 20px auto;
+
+    padding: 15px;
+
+    background: #f8f8f8;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+
+    overflow-x: auto;
+
+    font-family: Consolas, monospace;
+}
+
+
+
+#xmlUtilizador {
+    background-color: #f4f4f4;
+}
+
+#xsdUtilizador {
+    background-color: #eef7ff;
+    border: 1px solid #9fc5e8;
+}
+
+
+#xmlUtilizador {
+    width: 68%;
+    margin: 20px auto 5px auto;
+}
+
+.area-xsd {
+    width: 68%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.area-xsd {
+    width: 68%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    text-align: left !important;
+}
+
+#btnMostrarXSD {
+    padding: 12px 24px;
+    margin-top: 12px;
+
+    background-color: #6c757d;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+
+}
+ 
+#btnMostrarXSD:hover {
+    background-color: #5a6268;
+    transform: translateY(-1px);
+}
+
+.titulo-xml {
+    width: 68%;
+    margin: 20px auto 10px auto;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
